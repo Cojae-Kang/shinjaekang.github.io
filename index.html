@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kang, Shinjae - CV</title>
+    <style>
+        /* 기본 스타일 설정 (학술적인 논문 스타일의 영문 폰트 적용) */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.4;
+            color: #000;
+            background-color: #f4f4f5; /* 브라우저 배경색 */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* A4 용지 스타일의 컨테이너 */
+        .cv-container {
+            max-width: 850px;
+            background-color: #fff;
+            margin: 0 auto;
+            padding: 50px 60px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* 헤더 스타일 */
+        h1 {
+            font-size: 26px;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+        
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            font-size: 14.5px;
+        }
+
+        /* 섹션 제목 (구분선 및 대문자 스타일) */
+        h2 {
+            font-variant: small-caps;
+            font-size: 16px;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 3px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        /* 공통 유틸리티 클래스 */
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .bold { font-weight: bold; }
+        .italic { font-style: italic; }
+        
+        /* 본문 내용 레이아웃 */
+        .item { margin-bottom: 15px; font-size: 14.5px; }
+        .item-title { margin-bottom: 3px; }
+        .item-details { padding-left: 15px; margin-top: 3px; }
+        .item-advisor { text-align: right; margin-top: 2px; font-size: 14px; }
+        
+        ul, ol { margin: 5px 0; padding-left: 20px; }
+        li { margin-bottom: 4px; }
+        
+        .sub-category { margin-top: 15px; font-weight: bold; font-size: 14.5px; }
+        .institution-name { font-weight: bold; margin-top: 10px; margin-bottom: 3px;}
+        
+        a { color: #0000EE; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* 모바일 최적화 (링크드인 앱 등에서 볼 때) */
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .cv-container { padding: 20px; box-shadow: none; }
+            .header-info { flex-direction: column; gap: 10px; }
+            .header-info > div:last-child { text-align: left !important; }
+            .flex-between { flex-direction: column; }
+            .flex-between > span:last-child { 
+                align-self: flex-start; 
+                margin-top: 2px; 
+                color: #555; 
+                font-size: 13.5px;
+            }
+            .item-advisor { text-align: left; margin-top: 5px; color: #555;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+
+    <!-- Header -->
+    <h1>Kang, Shinjae <span style="font-size: 16px; font-weight: normal;">(2026 Ver.)</span></h1>
+    <div class="header-info">
+        <div>
+            Graduate School of Green Growth & Sustainability<br>
+            Korea Advanced Institute of Science and Technology (KAIST)<br>
+            291 Daehak-ro, Yuseong-gu, Daejeon, South Korea
+        </div>
+        <div style="text-align: right;">
+            Mobile: +82-10-4424-4367<br>
+            E-mail: <a href="mailto:toonword@kaist.ac.kr">toonword@kaist.ac.kr</a>
+        </div>
+    </div>
+
+    <!-- Interests -->
+    <h2>Interests</h2>
+    <div class="item" style="margin-bottom: 0;">
+        Energy Infrastructure Private Equity, Dynamic Asset Valuation, Cross-Border M&A (Energy Transition), Carbon Finance, Energy & Climate -Tech Commercialization, Climate-Tech Valuation & Project Financing
+    </div>
+
+    <!-- Work & Research Experience -->
+    <h2>Work & Research Experience</h2>
+    
+    <div class="item">
+        <div class="flex-between item-title">
+            <span class="bold">(Researcher) KAIST, Energy Technology and Policy (ETP), Daejeon, South Korea</span>
+            <span>Dec. 2024–Present.</span>
+        </div>
+        <div class="item-details">
+            Conducting research on changes in AI data center electricity use, power supply conditions in South Korea and the feasibility of utilizing electric vehicle demand response resources.
+            <div class="item-advisor italic">[Advisor: Prof. Jihyo Kim]</div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="flex-between item-title">
+            <span class="bold">(Start-up, Project & Strategy Planner) LUX Lab, Seoul, South Korea</span>
+            <span>Apr. 2024–Dec. 2024</span>
+        </div>
+        <div class="item-details">
+            <ol style="margin-top:0; padding-left:18px; list-style-type: decimal;">
+                <li>R&D and Technology Commercialization of "E-digestion" Electronic Device</li>
+                <li>Selected for the 2024 National R&D Project and the Korea University Technology Commercialization Program</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="flex-between item-title">
+            <span class="bold">(Internship) Daishin Economic Research Institute, Daishin Financial Group, Seoul, South Korea</span>
+            <span>Aug. 2023–Dec. 2023</span>
+        </div>
+        <div class="item-details">
+            <ol style="margin-top:0; padding-left:18px; list-style-type: decimal;">
+                <li>Developed Scenario-based Financial Models (VENSIM) cost simulation models aligned with IEA NZE scenarios to quantify financial risks for corporate clients</li>
+                <!-- 마침표 제거된 부분 -->
+                <li>Conducted ESG Due Diligence (DD) on 180+ global suppliers, translating non-financial risks into actionable investment/mitigation strategies</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="flex-between item-title">
+            <span class="bold">(Internship) KAIST, Waste-Innovating Technologies for Humanity Laboratory (WITHLAB), Daejeon, South Korea</span>
+            <span>Dec. 2022–Feb. 2023</span>
+        </div>
+        <div class="item-details">
+            Validated commercial viability of CO2 utilization (Techno-Economic Analysis) via CapEx/OpEx and unit economics analysis for project financing.
+            <div class="item-advisor italic">[Advisor: Prof. Jaewook Myung]</div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    
+    <div class="item">
+        <div class="bold">Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea</div>
+        <div class="flex-between">
+            <span><span class="bold">M. S., College of Engineering</span> - (Green growth and sustainability)</span>
+            <span style="text-align: right;">Feb. 2027 <span class="italic">(Expected)</span></span>
+        </div>
+        <div class="item-details" style="margin-top:2px;">
+            Dissertation: Valuation under Market and Policy Uncertainty: A Real Options Analysis of Biochar Project Investment in the Voluntary Carbon Market (GPA, Cummulative: 93.5/100)
+        </div>
+    </div>
+
+    <div class="item" style="margin-bottom: 0;">
+        <div class="bold">Korea University, Seoul, South Korea</div>
+        <div class="flex-between">
+            <span><span class="bold">B. S., Division of Environmental Science and Ecological Engineering, Studies of Climate Change</span> (GPA: 96.6/100)</span>
+            <span>Feb. 2025</span>
+        </div>
+    </div>
+
+    <!-- Publications, Conference & Forum Presentation -->
+    <h2>Publications, Conference & Forum Presentation</h2>
+    
+    <div class="item">
+        <div class="bold">*Journal Publications</div>
+        <div>Kim, J., <span class="bold">Kang, S.</span>, Oh, K., Her, Y., Kim, J., EV Charging Flexibility in a Regional Energy Transition: Evidence from South Korea, Energy Policy <span class="bold italic">(Under review)</span> <span class="bold">(SSCI, co-author)</span></div>
+    </div>
+
+    <div class="item">
+        <div class="bold">*Featured Professional Articles</div>
+        <!-- 첫 번째 링크 반영 완료 -->
+        <div><span class="bold">Kang, S.</span>, et al., “Challenges & Innovations in Technology and Markets for Green Transformation (GX),” Special Article (KAIST GGGS, 2026.) / Available at: <a href="https://nzip.kaist.ac.kr/brief/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=170848546&t=board" target="_blank">Site</a></div>
+        <ul style="list-style-type: circle; margin-top: 3px;">
+            <li>Commissioned special article summarizing key insights from the Net Zero Intelligence International Forum</li>
+        </ul>
+    </div>
+
+    <div class="item">
+        <div class="bold">*Presentation</div>
+        <ol style="margin-top: 3px; padding-left: 18px; list-style-type: decimal;">
+            <li>
+                <span class="bold">Shinjae Kang</span>, “Valuation under Market and Policy Uncertainty: A Real Options Analysis of Biochar Project Investment in the Voluntary Carbon Market,” <span class="bold">(Oral Presenter)</span>
+                <ol style="list-style-type: upper-alpha; padding-left: 20px; margin-top: 3px;">
+                    <li>The 126th Spring Conference of the Korean Society of Mineral and Energy Resources Engineers (KSMER), Gyeongju, Korea, May 2026</li>
+                    <li>2026 Joint Economics Conference (Korea Environmental Economics Association Session), Seoul, Korea, February 2026</li>
+                    <li class="italic">Korean Society of Climate Change Research (KSCC), Busan, Korea, December 2025</li>
+                </ol>
+            </li>
+            <li style="margin-top: 5px;">
+                <span class="bold">Shinjae Kang</span>, “The Value and Conservation of Biodiversity: Technological Applications & Economic Impacts,” ESG Social Contribution Seminar – <span class="italic">[IUCN Korean Committee & UN PeaceKor]</span>, Paju, Korea, May 2024 <span class="bold">(Invited Speaker)</span>
+            </li>
+            <li style="margin-top: 5px;">
+                <span class="bold">Shinjae Kang</span>, “Biodiversity and ESG: Present and Future, “Korea University ESG Research Forum – <span class="italic">[Hosted by Prof. Yong-Sik Ok, et al.]</span>, Seoul, Korea, January 2023 <span class="bold">(Speaker)</span>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Honors & Awards -->
+    <h2>Honors & Awards</h2>
+    
+    <div class="sub-category">*Academic & Professional Scholarships</div>
+    
+    <div class="item" style="margin-bottom: 5px;">
+        <div class="institution-name">(Hanwha Financial Network)</div>
+        <div class="flex-between">
+            <span>Finance Membership - National Top 10 Finalist, Hanwha Future Finance Talent Competition<br>
+            <span class="italic" style="padding-left:15px;">- Sector: Health Care (Insurance Pricing Modelling & Option Strategy)</span></span>
+            <span>2026</span>
+        </div>
+    </div>
+
+    <div class="item" style="margin-bottom: 5px;">
+        <div class="institution-name">(DB Foundation)</div>
+        <div class="flex-between">
+            <span>Research Stipend (Master’s degree, 4 Semesters) – <span class="italic">Role: Head Student of Scholar (2025~2026)</span><br>
+            <span class="italic" style="padding-left:15px;">Field: Finance / Accounting/ Real Estate</span></span>
+            <span>2025</span>
+        </div>
+        <div class="flex-between" style="margin-top: 3px;">
+            <span>Full Tuition Scholarship (Undergraduate, 4 Semesters)</span>
+            <span>2020</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="institution-name">(Korea University Alumni Association)</div>
+        <div class="flex-between">
+            <span>Full Tuition, Pledged by Class of 1985 Alumni Association (Undergraduate, 1 Semester)</span>
+            <span>2024</span>
+        </div>
+        <div class="flex-between">
+            <span>Full Tuition, Pledged by Moon-Goo Lee, CEO of Hyupjin Global (Undergraduate, 1 Semester)</span>
+            <span>2023</span>
+        </div>
+        <div class="flex-between">
+            <span>Stipend Scholarship, Pledged by Mong-Jin Chung, Chairman of KCC (Undergraduate, 1 Semester)</span>
+            <span>2022</span>
+        </div>
+    </div>
+
+    <div class="sub-category">*Academic & Professional Awards</div>
+    
+    <div class="item" style="margin-bottom: 5px;">
+        <div class="institution-name">(Asan Nanum Foundation)</div>
+        <div class="flex-between">
+            <span>Encouragement Award (Honourable Mention), Climate Tech Innovation Sprint (Organized by KAIST & Ewha Womans University)</span>
+            <span>May. 2025</span>
+        </div>
+    </div>
+
+    <div class="item" style="margin-bottom: 5px;">
+        <div class="institution-name">(Korea University)</div>
+        <div class="flex-between">
+            <span>Semester Top Outstanding Honors Award (GPA 4.5/4.5)</span>
+            <span>Jul. 2023</span>
+        </div>
+        <div class="flex-between">
+            <span>Semester Honors Award</span>
+            <span>Feb. 2023</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="institution-name">(DB Foundation)</div>
+        <div class="flex-between">
+            <span>Outstanding Award - <span class="italic">Top Student of Scholar</span><br>
+            <span class="italic" style="padding-left:15px;">Field: Corporate Social Responsibility</span></span>
+            <span>Feb. 2021</span>
+        </div>
+    </div>
+
+    <!-- Certification & Training -->
+    <h2>Certification & Training</h2>
+    
+    <div class="item">
+        <div class="bold">*Certifications (Publicly Accredited)</div>
+        <div class="flex-between" style="margin-top: 3px;">
+            <span>1. Advanced Data Analytics Semi-Professional (ADsP) - Korea Data Agency</span>
+            <span>(ADsP-039002663)</span>
+        </div>
+        <div class="flex-between">
+            <span>2. Engineer Wastes Treatment - Ministry of Environment / HRD Korea</span>
+            <span>(No. 24201132639Y)</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="bold">*Professional Training & Programs</div>
+        
+        <div style="margin-top: 5px;">
+            <div class="flex-between">
+                <span>1. Startup Track: FROM CAMPUS TO CAPITAL - Root Impact & Like Lion</span>
+                <span>Oct – Dec 2025</span>
+            </div>
+            <div class="item-details italic" style="font-size: 14px;">
+                <!-- 두 번째 링크 반영 완료 -->
+                Led financial projections and business modeling as CFO Role; <a href="https://www.werkon.net/en" style="font-style: normal;" target="_blank">Site</a><br>
+                optimized unit economics and pricing via Monte Carlo simulations to secure 75%+ margins for VC investment pitch.
+            </div>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <div class="flex-between">
+                <span>2. Undergraduate/Graduate Academy (1st Cohort) - The National Assembly of Korea</span>
+                <span style="text-align: right;">Issued: Aug 2025<br>(No. 28478)</span>
+            </div>
+            <div class="item-details italic" style="font-size: 14px;">
+                Intensive program focused on national policymaking, legislative processes, and regulatory frameworks.
+            </div>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <div class="flex-between">
+                <span>3. Asia Students Environmental Program (ASEP), Selected as a National Representative Student<br>(Republic of Korea)– AEON Environmental Foundation</span>
+                <span style="text-align: right;">Issued: Aug 2022<br>(No. KR2208)</span>
+            </div>
+            <div class="item-details italic" style="font-size: 14px;">
+                Global leadership program focused on environmental policy and cross-cultural presentation skills.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
